@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Anthony Gibbons\\.nuget\\packages\\": {}
+    "C:\\Users\\ajgso\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\SorterLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\SorterLibrary.csproj",
       "projectName": "SorterLibrary",
-      "projectPath": "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\SorterLibrary.csproj",
-      "packagesPath": "C:\\Users\\Anthony Gibbons\\.nuget\\packages\\",
-      "outputPath": "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\obj\\",
+      "projectPath": "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\SorterLibrary.csproj",
+      "packagesPath": "C:\\Users\\ajgso\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Anthony Gibbons\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ajgso\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
