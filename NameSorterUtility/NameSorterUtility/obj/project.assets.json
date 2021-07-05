@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ajgso\\.nuget\\packages\\": {}
+    "C:\\Users\\Anthony Gibbons\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility\\NameSorterUtility.csproj",
+      "projectUniqueName": "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility\\NameSorterUtility.csproj",
       "projectName": "NameSorterUtility",
-      "projectPath": "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility\\NameSorterUtility.csproj",
-      "packagesPath": "C:\\Users\\ajgso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility\\obj\\",
+      "projectPath": "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility\\NameSorterUtility.csproj",
+      "packagesPath": "C:\\Users\\Anthony Gibbons\\.nuget\\packages\\",
+      "outputPath": "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ajgso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anthony Gibbons\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\SorterLibrary.csproj": {
-              "projectPath": "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\SorterLibrary.csproj"
+            "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\SorterLibrary.csproj": {
+              "projectPath": "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\SorterLibrary.csproj"
             }
           }
         }

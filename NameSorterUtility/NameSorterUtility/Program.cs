@@ -16,7 +16,7 @@ namespace NameSorterUtility
 
             
 
-            foreach (string text in stringToSort.Strings)
+            foreach (string text in stringToSort.SortedStrings)
             {
 
                 Console.WriteLine(text);

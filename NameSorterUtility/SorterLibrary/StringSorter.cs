@@ -11,34 +11,102 @@ namespace SorterLibrary
         #region Constructors
 
         /// <summary>
-        /// Default Constructor. Initialises the strings as an empty arraylist
+        /// Default Constructor. Sets the default sorting algoritm to the ArrayListStringSorter 
+        /// which uses the built-in ArrayList.sort method to sort. 
         /// </summary>
         public StringSorter()
         {
-            stringsToSort = new ArrayList();
+            // The default sorting algorithm uses the ArrayList.sort() function
+            sortingAlgorithm = new ArrayListStringSorter();
         }
 
         /// <summary>
-        /// Constructor initialises the list of string to sort using the provided
+        /// Constructor initialises the list of strings to sort using the provided
         /// list of strings as an ArrayList data structure
         /// </summary>
-        /// <param name="listOfStrings">The list of string to sort in ArrayList form</param>
+        /// <param name="listOfStrings">The list of strings to sort in ArrayList form</param>
         public StringSorter(ArrayList listOfStrings)
         {
-            stringsToSort = listOfStrings;
+            // The default sorting algorithm uses the ArrayList.sort() function
+            sortingAlgorithm = new ArrayListStringSorter();
+
+            // Assign the data to the sorter
+            sortingAlgorithm.setData(listOfStrings);
         }
 
         /// <summary>
-        /// Constructor initialises the list of string to sort using the provided
+        /// Constructor initialises the list of strings to sort using the provided
         /// list of strings as an array of strings
         /// </summary>
         /// <param name="listOfStrings">The list of string to sort as an array of strings</param>
         public StringSorter(string[] listOfStrings)
         {
+            // The default sorting algorithm uses the ArrayList.sort() function
+            sortingAlgorithm = new ArrayListStringSorter();
+
             // Initialise the ArrayList
-            stringsToSort = new ArrayList(listOfStrings);
+            sortingAlgorithm.setData(new ArrayList(listOfStrings));
                         
         }
+        #endregion
+
+        #region Properties
+
+        /// <summary>
+        /// Gets or Sets the list of strings to be sorted.
+        /// </summary>
+        public ArrayList UnsortedStrings
+        {
+            get
+            {
+                return sortingAlgorithm.getData();
+            }
+
+            set
+            {
+                sortingAlgorithm.setData(value);
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets the list of strings to be sorted as a string array
+        /// </summary>
+        public string[] UnsortedStringsArray
+        {
+            get
+            {
+                return ToStringArray(sortingAlgorithm.getData());
+            }
+
+            set
+            {
+                sortingAlgorithm.setData(new ArrayList(value));
+            }
+        }
+
+        /// <summary>
+        /// Gets the sorted strings as an ArrayList
+        /// </summary>
+        public ArrayList SortedStrings
+        {
+            get
+            {
+                return sortingAlgorithm.getSortedData();
+            }
+        }
+
+        /// <summary>
+        /// Gets the sorted strings as a string array
+        /// </summary>
+        public string[] SortedStringsArray
+        {
+            get
+            {
+                return ToStringArray(sortingAlgorithm.getSortedData());
+            }
+        }
+        
+
         #endregion
 
         #region Public Methods
@@ -47,81 +115,40 @@ namespace SorterLibrary
         /// Sorts the Strings in alphabetical order
         /// </summary>
         /// <returns>Retruns the strings in alphabetical order as a string array. 
-        /// This sorted string can also be accessed from the Strings property. </returns>
+        /// This sorted string can also be accessed from the SortedStrings property. </returns>
         public string[] Sort()
         {
             // Sort the strings
-            stringsToSort.Sort();
+            sortingAlgorithm.sort();
 
             // Return the sorted strings as a string array
-            return ToStringArray();
+            return ToStringArray(sortingAlgorithm.getSortedData());
         }
 
         #endregion
 
-        #region Private Functions
+        #region Private/Protected Functions
 
         /// <summary>
-        /// Converts the list of strings in the stringsToSort ArrayList to an array of strings 
+        /// Converts the list of strings in the supplied ArrayList to an array of strings 
         /// </summary>
-        /// <returns>An array of strings containing the strings the stringsToSort ArrayList</returns>
-        private string[] ToStringArray()
+        /// <returns>An array of strings containing the strings the supplied ArrayList</returns>
+        protected string[] ToStringArray(ArrayList stringsArrayList)
         {
-            // Initliase the string array
-            string[] stringArray = new string[stringsToSort.Count];
-
-            // Add the strings from the arraylist to the string array
-            for (int i = 0;i < stringsToSort.Count;i++) {
-                stringArray[i] = (string)stringsToSort[i];
-            }
-
-            // Return the populated string array
-            return stringArray;
-
-        }
-
-        #endregion
-
-        #region Properties
-
-        /// <summary>
-        /// Gets or Sets the list of strings to be sorted.
-        /// </summary>
-        public ArrayList Strings
-        {
-            get
-            {
-                return stringsToSort;
-            }
-
-            set
-            {
-                stringsToSort = value;
-            }
-        }
-
-        /// <summary>
-        /// Gets or sets the list of strings to be sorted as a string array
-        /// </summary>
-        public string[] StringsArray
-        {
-            get
-            {
-                return ToStringArray();
-            }
             
-            set
-            {
-                stringsToSort = new ArrayList(value);
-            }
+            // Return the populated string array
+            return (string[])stringsArrayList.ToArray(typeof(string));
+
         }
 
         #endregion
 
-        #region Private Attributes
+        
 
-        // The list of string to be sorted
-        private ArrayList stringsToSort; 
+        #region Private/Protected Attributes
+
+        // The sorting algorithm being used. 
+        protected ISorter sortingAlgorithm;
 
         #endregion
 
