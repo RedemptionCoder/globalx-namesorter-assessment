@@ -5952,19 +5952,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anthony Gibbons\\.nuget\\packages\\": {}
+    "C:\\Users\\ajgso\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility.Tests\\NameSorterUtility.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility.Tests\\NameSorterUtility.Tests.csproj",
       "projectName": "NameSorterUtility.Tests",
-      "projectPath": "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility.Tests\\NameSorterUtility.Tests.csproj",
-      "packagesPath": "C:\\Users\\Anthony Gibbons\\.nuget\\packages\\",
-      "outputPath": "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility.Tests\\obj\\",
+      "projectPath": "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility.Tests\\NameSorterUtility.Tests.csproj",
+      "packagesPath": "C:\\Users\\ajgso\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Anthony Gibbons\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ajgso\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5978,11 +5978,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility\\NameSorterUtility.csproj": {
-              "projectPath": "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility\\NameSorterUtility.csproj"
+            "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility\\NameSorterUtility.csproj": {
+              "projectPath": "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\NameSorterUtility\\NameSorterUtility.csproj"
             },
-            "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\SorterLibrary.csproj": {
-              "projectPath": "E:\\MainData\\Administration\\TheCareerImprovementProject_2020\\Applications\\2021\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\SorterLibrary.csproj"
+            "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\SorterLibrary.csproj": {
+              "projectPath": "C:\\Users\\ajgso\\Documents\\GitHub\\globalx\\globalx-namesorter-assessment\\NameSorterUtility\\SorterLibrary\\SorterLibrary.csproj"
             }
           }
         }

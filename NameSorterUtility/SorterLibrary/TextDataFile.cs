@@ -6,7 +6,7 @@ using System.Text;
 
 namespace SorterLibrary
 {
-    class TextDataFile : IDataSource
+    public class TextDataFile : IDataSource
     {
 
         #region Constructors
@@ -31,6 +31,10 @@ namespace SorterLibrary
         {
             // Set the file name
             textDataFileName = path;
+
+            // Initialise the data arraylist
+            loadedData = new ArrayList();
+
         }
 
         #endregion 
@@ -53,7 +57,9 @@ namespace SorterLibrary
             }
         }
 
-        // Gets the data loaded as an ArrayList
+        /// <summary>
+        /// Gets the data loaded as an ArrayList
+        /// </summary>
         public ArrayList LoadedData
         {
             get
@@ -62,7 +68,9 @@ namespace SorterLibrary
             }
         }
 
-        // Gets the data loaded as a string array
+        /// <summary>
+        /// Gets the data loaded as a string array 
+        /// </summary>
         public string[] LoadedDataArray
         {
             get

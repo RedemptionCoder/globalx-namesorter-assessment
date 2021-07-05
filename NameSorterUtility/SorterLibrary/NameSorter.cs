@@ -47,7 +47,7 @@ namespace SorterLibrary
         /// source.
         /// </summary>
         /// <param name="externalDataSource"></param>
-        public NameSorter(IDataSource externalDataSource)
+        public NameSorter(IDataSource externalDataSource) : base()
         {
 
             // Initliase the names by lastname list
