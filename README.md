@@ -22,6 +22,7 @@ Where OPTIONS include:
  <code>name-sorter ./unsorted-names-list.txt</code>
  <h2>Unit Testing</h2>
  <p>Clone the repository, open the command prompt and change directory to the <code>NameSorterUtiltiy</code> folder, and run <code>dotnet test</code>. This can also be done via Visual Studio's Unit Testing facilities</p>
+ <p>The unit tests can be found in the <code>NameSorterUtility.Tests</code> folder.</p>
  <h2>Overview of files/classes</h2>
  <p>The project is broken up as follows:</p>
  
