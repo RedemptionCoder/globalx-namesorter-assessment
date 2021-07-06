@@ -16,7 +16,7 @@ namespace NameSorterUtility.Tests
         [InlineData("sourceData.txt", new string[] { "Janet Parsons",
                                     "Vaughn Lewis",
                                     "Adonis Julius Archer",
-                                    "Shelby Nathan Yoder",
+                                    "Shelby Nathan Yoder",                                                      
                                     "Marin Alvarez",
                                     "London Lindsey",
                                     "Beau Tristan Bentley",

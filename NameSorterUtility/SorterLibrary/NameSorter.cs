@@ -201,6 +201,23 @@ namespace SorterLibrary
             }
         }
 
+        /// <summary>
+        /// Sets the sorting algorithm to use. The default is ArrayList sort. Be sure to reload the data into 
+        /// the NameSorter after changing the sorting algorithm
+        /// </summary>
+        public ISorter SortAlgorithm
+        {
+            get
+            {
+                return sortingAlgorithm;
+            }
+
+            set
+            {
+                sortingAlgorithm = value;
+            }
+        }
+
         #endregion
 
         #region Public Methods

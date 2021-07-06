@@ -8,19 +8,15 @@ namespace NameSorterUtility
         static void Main(string[] args)
         {
 
-            string[] names = { "Peter Gibbons", "Elize Gibbons", "Cindy Gibbons", "Anthony Gibbons" };
+            // Create the app controller
+            NameSorterUtilityControl controller = new NameSorterUtilityControl(args);
 
-            StringSorter stringToSort = new StringSorter(names);
+            // Run the controller
+            controller.Run();
 
-            stringToSort.Sort();
+            // End the app
+            return;
 
-            
-
-            foreach (string text in stringToSort.SortedStrings)
-            {
-
-                Console.WriteLine(text);
-            }
         }
     }
 }

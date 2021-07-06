@@ -1,0 +1,7 @@
+E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\NameSorterUtility\bin\Debug\netcoreapp3.1\publish\NameSorterUtility.exe
+E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\NameSorterUtility\bin\Debug\netcoreapp3.1\publish\NameSorterUtility.dll
+E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\NameSorterUtility\bin\Debug\netcoreapp3.1\publish\NameSorterUtility.deps.json
+E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\NameSorterUtility\bin\Debug\netcoreapp3.1\publish\NameSorterUtility.runtimeconfig.json
+E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\NameSorterUtility\bin\Debug\netcoreapp3.1\publish\NameSorterUtility.pdb
+E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\NameSorterUtility\bin\Debug\netcoreapp3.1\publish\SorterLibrary.dll
+E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\NameSorterUtility\bin\Debug\netcoreapp3.1\publish\SorterLibrary.pdb

@@ -17,8 +17,32 @@ namespace SorterLibrary
         {
             unsortedStrings = new ArrayList();
             sortedStrings = new ArrayList();
+
+            // Remove whitepace by default
+            removeWhitespace = true;
+
         }
-                
+
+        #endregion
+
+        #region Properties
+
+        /// <summary>
+        /// Sets whether to trim strings in data or not
+        /// </summary>
+        public bool RemoveWhitespace
+        {
+            get
+            {
+                return removeWhitespace;
+            }
+
+            set
+            {
+                removeWhitespace = value;
+            }
+        }
+
         #endregion
 
         #region Public Methods
@@ -43,6 +67,16 @@ namespace SorterLibrary
         /// <param name="data">ArrayList containing data</param>
         public void setData(ArrayList data)
         {
+            
+            // Remove whitespace if required
+            if (removeWhitespace)
+            {
+                for (int i=0;i<data.Count;i++)
+                {
+                    data[i] = ((string)(data[i])).Trim();
+                }
+            }
+
             unsortedStrings = data;
         }
 
@@ -73,6 +107,9 @@ namespace SorterLibrary
 
         // The list of strings before they were sorted
         private ArrayList unsortedStrings;
+
+        // Whether to remove whitespace from data
+        private bool removeWhitespace;
 
         #endregion
 
