@@ -26,10 +26,10 @@ Where OPTIONS include:
  <p>The project is broken up as follows:</p>
  
  Folder <code>NameSorterUtilty</code>
- contains the main <code>Program.cs</code> and <code>NameSorterUtilityControl</code> classes. The <code>NameSorterUtilityControl</code> class is the main controlling class of the console app. It is means to resemble the MVC approach. 
+ contains the main <code>Program.cs</code> and <code>NameSorterUtilityControl</code> classes. The <code>NameSorterUtilityControl</code> class is the main controlling class of the console app. It is meant to resemble the MVC approach. 
  
  Folder <code>SorterLibrary</code>
- Contains all of the model classes that does all the work. The project uses two sorting algorithms/approaches. The default one uses the <code>System.Collections.ArrayList.Sort()</code> algorithm. This is provided through the <code>ArrayListStringSorter</code> class that implements the <code>ISorter</code> interface. 
+ contains all of the model classes that does all the work. The project uses two sorting algorithms/approaches. The default one uses the <code>System.Collections.ArrayList.Sort()</code> algorithm. This is provided through the <code>ArrayListStringSorter</code> class that implements the <code>ISorter</code> interface. 
  
  <h3>The MergeSort Algorithm</h3>
  <p>In my confusion, I went ahead and chucked in the MergeSort algorithm as well. It implements the <code>ISorter</code> interface with the <code>MergeSortStringSorter</code> class. The MergeSort method can be used instead of the <code>ArrayList.Sort()</code> method by invoking the <code>-ms</code> option i.e. <code>name-sorter &lt;Input File Name&gt; -ms</code>.  
