@@ -11,6 +11,8 @@ namespace NameSorterUtility
             // Create the app controller
             NameSorterUtilityControl controller = new NameSorterUtilityControl(args);
 
+            // Some test git
+
             // Run the controller
             controller.Run();
 
