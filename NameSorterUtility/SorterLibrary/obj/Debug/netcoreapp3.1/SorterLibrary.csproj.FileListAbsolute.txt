@@ -10,12 +10,3 @@ C:\Users\ajgso\Documents\GitHub\globalx\globalx-namesorter-assessment\NameSorter
 E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\release\SorterLibrary.deps.json
 E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\release\SorterLibrary.dll
 E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\release\SorterLibrary.pdb
-E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\SorterLibrary\bin\Debug\netcoreapp3.1\SorterLibrary.deps.json
-E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\SorterLibrary\bin\Debug\netcoreapp3.1\SorterLibrary.dll
-E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\SorterLibrary\bin\Debug\netcoreapp3.1\SorterLibrary.pdb
-E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\SorterLibrary\obj\Debug\netcoreapp3.1\SorterLibrary.csproj.AssemblyReference.cache
-E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\SorterLibrary\obj\Debug\netcoreapp3.1\SorterLibrary.AssemblyInfoInputs.cache
-E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\SorterLibrary\obj\Debug\netcoreapp3.1\SorterLibrary.AssemblyInfo.cs
-E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\SorterLibrary\obj\Debug\netcoreapp3.1\SorterLibrary.csproj.CoreCompileInputs.cache
-E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\SorterLibrary\obj\Debug\netcoreapp3.1\SorterLibrary.dll
-E:\MainData\Administration\TheCareerImprovementProject_2020\Applications\2021\globalx\globalx-namesorter-assessment\NameSorterUtility\SorterLibrary\obj\Debug\netcoreapp3.1\SorterLibrary.pdb
